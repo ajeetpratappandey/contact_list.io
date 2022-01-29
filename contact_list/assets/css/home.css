@@ -1,0 +1,68 @@
+
+body{
+margin: 0;
+font-family: sans-serif;
+}
+#page-heading{
+    text-align: center;
+    margin-top: 25px;
+    color: grey;
+}
+.imgphonebook img{
+    margin-bottom: -15px;
+}
+.contact-list-container{
+  display: flex;
+  justify-content: center;
+}
+.contact-list-container ul{
+    list-style-type: none;
+}
+.contacts{
+    padding: 3px;
+    /* margin: -2px 625px; */
+    width: 700px;
+    width: 700px;
+}
+.details{
+    display: flex;
+    background-color: aqua;
+    justify-content: space-between;
+    padding: -3px;
+    margin: -9px 0;
+    /* border: black; */
+    border-radius: 44;
+    padding: 0 28px;
+    font-size: 27px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+form
+    {
+        display: flex;
+        justify-content: center;
+    }
+    button{
+        font-size: 23px;
+        background-color: aqua;
+        margin: 0 18px 0;
+        border-radius: 16px;
+    }
+    
+    input{
+        margin: 0 10px -2px;
+        border-radius: 8px;
+        border-bottom-style: double;
+        font-weight: 600;
+        background-color: aquamarine;
+    }
+    input:hover{
+        background-color: aqua;
+    }
+    button:hover{
+        background-color: aquamarine;
+    }
+    .details:hover{
+        background-color: aquamarine;
+    }
+    
